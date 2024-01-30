@@ -40,6 +40,7 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    backdrop-filter: blur(10px) !important;
 }
 .navbar__list--1 p{
     margin: 0;
