@@ -98,6 +98,29 @@ p{
     justify-content: center;
     gap: 10px;
 }
+.banner__section--btn a{
+   
+}
+.banner__section--btn a:hover{
+    animation-name: animatebtn;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes animatebtn {
+    0%{
+        transform: translateY(0);
+       
+    }
+    50%{
+        transform: translateY(-10px);
+        /* transition-duration: 1s; */
+    }
+    100%{
+        transform: translateY(0);
+       
+    }
+}
 .banner__section--btn .d__button{
     border: 1px solid black;
     background: transparent;
