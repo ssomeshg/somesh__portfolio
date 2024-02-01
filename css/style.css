@@ -55,21 +55,43 @@ p{
     list-style: none;
 }
 
+.user__button{
+    position: relative;
+}
+.user__content{
+    position: absolute;
+    background-color: #000;
+    border-top: 2px solid red;
+    top: 40px;
+    padding: 5px 15px;
+    right: -40px;
+    display: none;
+}
+.user__content p{
+    margin: 0;
+}
+.user__button:hover .user__content{
+    display: block;
+}
+
 
 /* banner section css */
-
+#banner--sec{
+    min-height: 80vh;
+}
 .banner__section{
-    min-height: 50vh;
+    
     width: 100%;
 }
 
 .banner__section--img{
-    width: 400px;
-    height: 400px;
+   text-align: center;
     margin: 0 auto;
 }
 .banner__section--img img{
-    width: 100%;
+    width: 400px;
+    height: 100%;
+    margin: 0 auto;
 }
 .banner__section--btn{
     display: flex;
